@@ -23,15 +23,15 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":597.760268935813,
+                 "height":840.247925202227,
                  "id":4,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":1209.618657422,
-                 "x":84.5887173022376,
-                 "y":177.636306334699
+                 "width":1328.04286164513,
+                 "x":5.63924782014914,
+                 "y":2.81962391007457
                 },
             
                 {
@@ -74,25 +74,6 @@
                  "width":0,
                  "x":217.333333333333,
                  "y":393.333333333333
-                },
-            
-                {
-                 "height":0,
-                 "id":2,
-                 "name":"",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"name",
-                         "type":"string",
-                         "value":"alt"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":532,
-                 "y":541.333333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
