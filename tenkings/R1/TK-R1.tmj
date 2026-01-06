@@ -17,6 +17,41 @@
     
         {
          "draworder":"topdown",
+         "id":3,
+         "name":"floorLayer",
+         "objects":[
+                {
+                 "height":597.760268935813,
+                 "id":4,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":1209.618657422,
+                 "x":84.5887173022376,
+                 "y":177.636306334699
+                },
+            
+                {
+                 "height":0,
+                 "id":5,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":2.8196239100746,
+                 "x":924.836642504465,
+                 "y":1136.30843576006
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "draworder":"topdown",
          "id":2,
          "locked":true,
          "name":"spawn",
@@ -64,8 +99,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":3,
- "nextobjectid":3,
+ "nextlayerid":4,
+ "nextobjectid":6,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
