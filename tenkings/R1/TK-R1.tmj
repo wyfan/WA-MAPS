@@ -6,7 +6,6 @@
          "data":[1],
          "height":1,
          "id":1,
-         "locked":true,
          "name":"\u5716\u584a\u5c64 1",
          "opacity":1,
          "type":"tilelayer",
@@ -19,6 +18,7 @@
         {
          "draworder":"topdown",
          "id":2,
+         "locked":true,
          "name":"spawn",
          "objects":[
                 {
@@ -72,8 +72,17 @@
  "tileheight":918,
  "tilesets":[
         {
+         "columns":1,
          "firstgid":1,
-         "source":"\u5341\u738b-R1.tsx"
+         "image":"..\/..\/..\/\u5c08\u6848\u88fd\u4f5c\/\u5730\u5716\/1.\u5165\u53e3\u7b2c\u4e00\u5e55\/\u8aaa\u5cb3\u958b\u7bc7-\u5c3a\u5bf8\u8abf\u6574-\u4f69\u7d1420250508-v3.png",
+         "imageheight":918,
+         "imagewidth":1342,
+         "margin":0,
+         "name":"\u5341\u738b-R1",
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":918,
+         "tilewidth":1342
         }],
  "tilewidth":1342,
  "type":"map",
