@@ -19,19 +19,18 @@
         {
          "draworder":"topdown",
          "id":3,
-         "locked":true,
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":840.247925202227,
+                 "height":755.659207899989,
                  "id":4,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":1328.04286164513,
-                 "x":5.63924782014914,
-                 "y":2.81962391007457
+                 "width":1271.65038344364,
+                 "x":36.6551108309695,
+                 "y":56.3924782014917
                 },
             
                 {
