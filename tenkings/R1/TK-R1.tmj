@@ -6,6 +6,7 @@
          "data":[1],
          "height":1,
          "id":1,
+         "locked":true,
          "name":"\u5716\u584a\u5c64 1",
          "opacity":1,
          "type":"tilelayer",
@@ -18,6 +19,7 @@
         {
          "draworder":"topdown",
          "id":3,
+         "locked":true,
          "name":"floorLayer",
          "objects":[
                 {
@@ -53,8 +55,7 @@
         {
          "draworder":"topdown",
          "id":2,
-         "locked":true,
-         "name":"spawn",
+         "name":"start",
          "objects":[
                 {
                  "height":0,
