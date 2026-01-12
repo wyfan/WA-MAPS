@@ -54,7 +54,7 @@
         {
          "draworder":"topdown",
          "id":2,
-         "name":"start",
+         "name":"spawn",
          "objects":[
                 {
                  "height":0,
