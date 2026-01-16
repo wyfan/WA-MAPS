@@ -96,6 +96,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":28,
          "id":4,
+         "locked":true,
          "name":"collisions",
          "opacity":1,
          "type":"tilelayer",
@@ -107,20 +108,18 @@
         {
          "draworder":"topdown",
          "id":3,
-         "locked":true,
          "name":"start",
          "objects":[
                 {
-                 "height":0,
-                 "id":2,
-                 "name":"start",
-                 "point":true,
+                 "height":40,
+                 "id":3,
+                 "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":0,
-                 "x":196,
-                 "y":396
+                 "width":72,
+                 "x":382,
+                 "y":386
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -129,7 +128,7 @@
          "y":0
         }],
  "nextlayerid":5,
- "nextobjectid":3,
+ "nextobjectid":4,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
