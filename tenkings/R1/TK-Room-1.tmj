@@ -73,7 +73,6 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":28,
          "id":7,
-         "locked":true,
          "name":"door_open_zone1",
          "opacity":1,
          "properties":[
@@ -86,6 +85,11 @@
                  "name":"autoOpen",
                  "type":"bool",
                  "value":true
+                }, 
+                {
+                 "name":"code",
+                 "type":"string",
+                 "value":"99978"
                 }, 
                 {
                  "name":"doorVariable",
@@ -129,6 +133,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":28,
          "id":8,
+         "locked":true,
          "name":"door_open_zone2",
          "opacity":1,
          "properties":[
@@ -416,7 +421,7 @@
         {
          "columns":8,
          "firstgid":1149,
-         "image":"[Base]BaseChip_pipo.png",
+         "image":"..\/Tiled\u7d20\u6750\/Pipoya RPG Tileset 32x32\/[Base]BaseChip_pipo.png",
          "imageheight":4256,
          "imagewidth":256,
          "margin":0,
@@ -440,5 +445,4 @@
  "type":"map",
  "version":"1.10",
  "width":41
-
 }
