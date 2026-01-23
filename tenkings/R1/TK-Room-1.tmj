@@ -73,6 +73,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":28,
          "id":7,
+         "locked":true,
          "name":"door_open_zone1",
          "opacity":1,
          "properties":[
@@ -118,6 +119,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":28,
          "id":8,
+         "locked":true,
          "name":"door_open_zone2",
          "opacity":1,
          "properties":[
@@ -135,6 +137,7 @@
         {
          "draworder":"topdown",
          "id":2,
+         "locked":true,
          "name":"floorLayer",
          "objects":[
                 {
@@ -286,6 +289,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":28,
          "id":5,
+         "locked":true,
          "name":"closed_door",
          "opacity":1,
          "type":"tilelayer",
@@ -337,6 +341,12 @@
  "nextlayerid":9,
  "nextobjectid":5,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"script",
+         "type":"string",
+         "value":"https:\/\/cdn.jsdelivr.net\/npm\/@workadventure\/scripting-api-extra@^1\/dist\/bundle.js"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
  "tileheight":32,
@@ -387,7 +397,7 @@
         {
          "columns":8,
          "firstgid":1149,
-         "image":"[Base]BaseChip_pipo.png",
+         "image":"..\/Tiled\u7d20\u6750\/Pipoya RPG Tileset 32x32\/[Base]BaseChip_pipo.png",
          "imageheight":4256,
          "imagewidth":256,
          "margin":0,
@@ -411,5 +421,4 @@
  "type":"map",
  "version":"1.10",
  "width":41
-
 }
