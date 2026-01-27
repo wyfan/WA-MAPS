@@ -88,14 +88,14 @@
                  "value":true
                 }, 
                 {
+                 "name":"closeTriggerMessage",
+                 "type":"string",
+                 "value":"autoOpen"
+                }, 
+                {
                  "name":"doorVariable",
                  "type":"string",
                  "value":"my_door"
-                }, 
-                {
-                 "name":"openTriggerMessage",
-                 "type":"string",
-                 "value":"\u81ea\u52d5\u958b\u958b\u958b"
                 }],
          "type":"tilelayer",
          "visible":false,
@@ -145,15 +145,25 @@
                 {
                  "name":"autoOpen",
                  "type":"bool",
-                 "value":true
+                 "value":false
+                }, 
+                {
+                 "name":"code",
+                 "type":"string",
+                 "value":"AABB"
                 }, 
                 {
                  "name":"doorVariable",
                  "type":"string",
                  "value":"my_door"
+                }, 
+                {
+                 "name":"openTriggerMessage",
+                 "type":"string",
+                 "value":"\u8981\u5bc6\u78bc\u5594\uff01"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":41,
          "x":0,
          "y":0
