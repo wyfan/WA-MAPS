@@ -79,7 +79,7 @@
                 {
                  "name":"autoOpen",
                  "type":"bool",
-                 "value":true
+                 "value":false
                 }, 
                 {
                  "name":"doorVariable",
