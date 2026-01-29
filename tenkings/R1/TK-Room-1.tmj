@@ -506,7 +506,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"https:\/\/wyfan.github.io\/WA-MAPS\/tenkings\/R1\/counter-loader.html"
+         "value":"https:\/\/wyfan.github.io\/WA-MAPS\/tenkings\/R1\/counter-script.mjs"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
