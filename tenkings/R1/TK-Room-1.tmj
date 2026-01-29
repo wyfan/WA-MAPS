@@ -73,6 +73,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":28,
          "id":10,
+         "locked":true,
          "name":"door_open_zone3",
          "opacity":1,
          "properties":[
@@ -447,15 +448,43 @@
          "width":41,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":11,
+         "name":"countZone",
+         "objects":[
+                {
+                 "height":35.3333333333334,
+                 "id":5,
+                 "name":"counterZone",
+                 "properties":[
+                        {
+                         "name":"color",
+                         "type":"string",
+                         "value":"#9C27B0"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":36,
+                 "x":468.666666666667,
+                 "y":448
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":11,
- "nextobjectid":5,
+ "nextlayerid":12,
+ "nextobjectid":6,
  "orientation":"orthogonal",
  "properties":[
         {
          "name":"script",
          "type":"string",
-         "value":"https:\/\/cdn.jsdelivr.net\/npm\/@workadventure\/scripting-api-extra@^1\/dist\/bundle.js"
+         "value":"https:\/\/cdn.jsdelivr.net\/npm\/@workadventure\/scripting-api-extra@^1\/dist\/bundle.js;https:\/\/wyfan.github.io\/WA-MAPS\/tenkings\/R1\/counter-script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
