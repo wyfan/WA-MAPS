@@ -66,18 +66,22 @@ function openCounterPopup(count) {
 }
 
 // ===== 主流程 =====
-WA.onInit().then(() => {
-  console.log("[CounterScript] ready");
+if (typeof WA === "undefined") {
+  console.warn("[CounterScript] WA is not available (not running inside WorkAdventure).");
+} else {
+	WA.onInit().then(() => {
+	  console.log("[CounterScript] ready");
 
-  WA.room.onEnterLayer(ZONE_LAYER).subscribe(async () => {
-    const current = getPlayerCount();
-    const next = current + 1;
+	  WA.room.onEnterLayer(ZONE_LAYER).subscribe(async () => {
+		const current = getPlayerCount();
+		const next = current + 1;
 
-    await setPlayerCount(next);
-    openCounterPopup(next);
-  });
+		await setPlayerCount(next);
+		openCounterPopup(next);
+	  });
 
-  WA.room.onLeaveLayer(ZONE_LAYER).subscribe(() => {
-    closePopupIfAny();
-  });
-});
+	  WA.room.onLeaveLayer(ZONE_LAYER).subscribe(() => {
+		closePopupIfAny();
+	  });
+	});
+}
