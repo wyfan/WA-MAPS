@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>WA Script Loader</title>
+  </head>
+  <body>
+    <!-- 1) 先載入 extra bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/@workadventure/scripting-api-extra@^1/dist/bundle.js"></script>
+
+    <!-- 2) 再載入你的腳本 -->
+    <script src="https://wyfan.github.io/WA-MAPS/tenkings/R1/counter-script.js"></script>
+
+    <!-- 3) 告訴父層：iframe 已載入完成（避免 WA timeout） -->
+    <script>
+      // 有些 WA 版本會等待 iframe 送出「已準備好」的訊號
+      // 這段只做通知，不依賴 WA 物件
+      window.parent?.postMessage({ type: "workadventure-script-ready" }, "*");
+    </script>
+  </body>
+</html>
